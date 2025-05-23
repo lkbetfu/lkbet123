@@ -1,31 +1,26 @@
-# 1xBet Aviator Multiplier Tracker Web App
+# Updated 1xBet Aviator Multiplier Tracker
 
-## Setup Instructions
+## Features
 
-1. Install Python 3.7 or higher.
+- Simulates Aviator multiplier rounds.
+- Logs timestamp and multiplier.
+- Filters log data by multiplier value.
+- Shows timeline chart.
+- Saves data to CSV for future use.
+- Mobile responsive web layout.
 
-2. Create and activate a virtual environment (optional but recommended):
+## How to Run
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
+1. Install Python 3.7+.
 
-3. Install dependencies:
-
+2. Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the Streamlit app:
-
+3. Run the app:
 ```bash
 streamlit run app.py
 ```
 
-5. The app will open in your default web browser. Click **Start Tracking** to simulate live multiplier tracking.
-
-## Notes
-
-- This app simulates multiplier data as real 1xBet API access is not publicly available.
-- The app logs and displays multipliers >= 100x.
+4. Use a browser (mobile/desktop) to view and interact with the live tracker.
